@@ -1,0 +1,15 @@
+# Smallest element
+def fun(arr): #arr->list
+    arr.sort()
+    # print(arr[0])
+    return arr[0]
+#"2 5 1 3 0"
+#'2','5','1',''3','0' -> all values are in string 
+# 2, 5, 1, 3, 0
+#[2,5,1,3,0]
+def main():
+    arr=list(map(int,input().split()))
+    res=fun(arr)
+    print(res)
+if __name__=="__main__":
+    main()
